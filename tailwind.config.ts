@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Segoe UI', '-apple-system', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +59,16 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        widget: {
+          blue: "hsl(var(--widget-blue))",
+          green: "hsl(var(--widget-green))",
+          orange: "hsl(var(--widget-orange))",
+          red: "hsl(var(--widget-red))",
+          purple: "hsl(var(--widget-purple))",
+          teal: "hsl(var(--widget-teal))",
+          yellow: "hsl(var(--widget-yellow))",
+          pink: "hsl(var(--widget-pink))",
         },
       },
       borderRadius: {
